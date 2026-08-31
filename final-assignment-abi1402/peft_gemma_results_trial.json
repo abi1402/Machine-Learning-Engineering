@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "num_samples": 100,
+    "correct": 33
+  },
+  "accuracy": 0.33,
+  "results": [
+    {
+      "id": 0,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which primary tooth resemble premolar\n\nA: Upper 1st molar\nB: Lower 1st molar\nC: Upper 2nd molar\nD: Lower 2nd molar",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 1,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Gene not involved in SCID\n\nA: BTK\nB: ZAP70\nC: IL2RG\nD: JAK3",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 2,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is used in the induction of anesthesia:-\n\nA: Bupivacaine\nB: Dexmediatomidine\nC: Lorazepam\nD: Neostigimine",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 3,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Patient underwent surgery at the lateral pa of the skull. Postoperatively patient had aspirations without voice change\n\nA: Vagus\nB: RLN\nC: Glossopharyngeal\nD: SLN",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 4,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "70-74.9% cephalic index indicates:\n\nA: Hyperdolichocephalic\nB: Dolichocephalic\nC: Mesocephalic\nD: Brachycephalic",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 5,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Best investigation for metabolic disorders is?\n\nA: Western blot\nB: Tandem mass spectrometry\nC: PCR\nD: Gel electrophoresis",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 6,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "What % is the incidence of vertucci type 8\n\nA: 6%\nB: 10%\nC: 2%\nD: 12%",
+      "ground_truth": "A",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is main cause of pain during pulpal injury progression?\n\nA: Increased vascular permeability\nB: Decreased threshold of nerve fibres to pain\nC: Arteriolar dilatation\nD: Decrease pressure",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 8,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Split impedence based apex locator is:\n\nA: Generation 1\nB: Generation 2\nC: Generation 3\nD: Generation 4",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A sevoflurane vaporizer can accurately deliver the dose of an anesthetic agent. It resembles it in which of the following propeies?\n\nA: Molecular weight\nB: Oil gas paition coefficient\nC: Blood gas paition coefficient\nD: Vapor pressure",
+      "ground_truth": "D",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 10,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which tooth is known as enigma to endodontist\n\nA: Mandibular canine\nB: Maxillary 1st premolar\nC: Mandibular 2nd premolar\nD: Mandibular 1st premolar",
+      "ground_truth": "D",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": false
+    },
+    {
+      "id": 11,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "causes of thyroid storm\n\nA: ineffective pre-operative hormonal control\nB: manhandling of the thyroid gland during surgery\nC: parathyroid tail left after surgery\nD: Poor Preoperative preparation of the patient",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 12,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Shape of 1st Maxillary molar\n\nA: Rhomboid\nB: Rounded triangular\nC: Trapezoid\nD: Square",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 13,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is clinical use of tafenoquine?\n\nA: Radical cure of Plasmodium vivax\nB: Prophylaxis of malaria in pregnancy\nC: Treatment of severe falciparum malaria\nD: Treatment of endemic malaria in children < 2 years",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 14,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A patient with tubercular meningitis was taking ATT regularly. At end of 1 month of regular intake of drugs deterioration in sensorium is noted in condition of the patient. Which of the following investions is not required on emergency evaluation ?.\n\nA: MRI\nB: NCCT\nC: CSF examination\nD: Liver function tests",
+      "ground_truth": "D",
+      "model_output": "D\n",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "id": 15,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Frey's syndrome results from surgery of the\n\nA: a)Submandibular salivary gland\nB: Parotid gland\nC: Sublingual salivary gland\nD: TMJ",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 16,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Zones of periapical pathology were described by:\n\nA: Palmer\nB: Fish\nC: Black\nD: Hugues",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 17,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Unattached gingiva:\n\nA: Is interdental gingiva\nB: Is below mucogingival fold\nC: c)\tCannot be separated by probe\nD: d)\tIs marginal gingiva",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The cyst which is found within the bone at the junction of the globular process, the Lateral nasal process & maxillary process is:\n\nA: Naso-alveolar cyst\nB: Globulomaxillary cyst\nC: Naso palatine cyst\nD: Mid palatine cyst",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 19,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Klenow fragment lacks the activity of?\n\nA: 3'-5' exonuclease\nB: 5'-3' exonuclease\nC: 5'-3' DNA polymerase\nD: 3'-5' DNA polymerase",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 20,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The one measurement of fetal maturity that is not affected by a 'bloody tap' during amniocentesis is:\n\nA: L/S ratio\nB: Phosphatidyl glycerol\nC: α-fetoprotein\nD: Bilirubin as a measured by DOD 450",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 21,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Reticulocytosis is seen in:\n\nA: Hemolytic anemia\nB: Megaloblastic anemia\nC: Aplastic anemia\nD: Iron deficiency anemia",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 22,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Golgi apparatus in serous acinar cells is at:\n\nA: Supranuclear\nB: Apical\nC: Adjacent to nucleus\nD: Basal",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 23,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is a primarily RNA based technique?\n\nA: Next generation sequencing\nB: PCR\nC: Sanger's technique\nD: Western blotting",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 24,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Morphine should not be used in the treatment of:-\n\nA: Ischemic pain\nB: Biliary colic\nC: Cancer pain\nD: Post operative pain",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 25,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The most appropriate method of testing the statistical significance of the differences between means of two groups is\n\nA: Chi square test\nB: Multiple regression analysis\nC: Correlation coefficient analysis\nD: Student test",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 26,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Lateral pharyngeal space is not connected directly by:\n\nA: Buccal space\nB: Sublingual space\nC: Submandibular space\nD: Retropharyngeal space",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 27,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Pulp mummification is indicated in:\n\nA: Non-vital tooth\nB: Deep caries on a symptomatic vital tooth\nC: Traumatic exposure of a vital tooth\nD: Traumatic exposure of a vital tooth with open wide apex",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 28,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Juvenile periodontitis is a\n\nA: Definite genetic disease\nB: Immunological defect\nC: Neutrophil chemotactic defect\nD: Neutrophil adhesion defect",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 29,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 10 year old boy is having polyuria, polydipsia,laboratory data showed (in mEq/lit) – Na– 154 K– 4.5 HCO3–  \n 22 Serum osmolality – 295 Blood urea – 50 Urine specific gravity – 1.005 The likely diagnosis is –\n\nA: Diabetes insipidus\nB: Renal tubular acidosis\nC: Barter's syndrome\nD: Recurrent UTI",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 30,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Hutchinson's triad includes?\n\nA: Interstitial keratitis, malformed molars, conductive deafness\nB: Interstitial keratitis, malformed molars, sensorineural deafness\nC: Conductive deafness, malformed incisors, interstitial keratitis\nD: Interstitial keratitis, malformed molars, conductive deafness",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 31,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Best fluid for factor VIII replacement is:\n\nA: fresh whole blood\nB: cryoprecipitate\nC: FFP\nD: Platelet concentrate",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 32,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Mesiolingual developmental groove is seen in\n\nA: Maxillary 1st premolar\nB: Mandibular lateral incisor\nC: Maxillary lateral incisor\nD: Mandibular 1st premolar",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 33,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "ICD-10 stands for\n\nA: International Classification of Drugs, 10th revision\nB: International Classification of Disabilities, 10th revision\nC: International Classification of Diseases, 10th revision\nD: International Classification of Disasters, 10th revision",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 34,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which pa of brachial plexus do not give branches\n\nA: Root\nB: Division\nC: Cord\nD: Trunk",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 35,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A hypeensive patient was on metoprolol treatment. Verapamil was added to the therapy of this patient. This can result in:-\n\nA: Atrial fibrillation\nB: Bradycardia with AV block\nC: Torsades de pointes\nD: Tachycardia",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 36,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Fixed drug eruptions are frequently seen with?\n\nA: Penicillin\nB: Sulfonamide\nC: Cetirizine\nD: Roxithromycin",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 37,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Transformation into osteosarcoma is seen with\n\nA: Pagets disease and polyostotic fibrous dysplasia\nB: Pagets disease and osteopetrosis\nC: Cherubism and polyostotic fibrous dyspLasia\nD: Cherubism and polyostotic fibrous dyspLasia",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 38,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Blood on OT floor is cleaned by?\n\nA: Phenol\nB: Alcohol based compounds\nC: Chlorine based compounds\nD: Quaternary ammonium compounds",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 39,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Rabies vaccine not to be given in case of?\n\nA: Rat bite\nB: Cat bite\nC: Dog bite\nD: Monkey bite",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 40,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following drug is commonly used in treatment for cancer associated thromboembotismt\n\nA: Low molecular weight heparin\nB: anti-thrombin III inhibitors\nC: Direct Xainhibitors\nD: Warfarin",
+      "ground_truth": "A",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 41,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 25-year-old lady presents with sudden severe bilateral loss of vision, more so on the right side, with no perception of light. Rest of the examination including pupillary reflexes, fundus and optokinetic nystagmus are normal. She was able to touch the tips of her fingers with her right eye closed but not with her left eye closed. The most like1 tgnosis is:\n\nA: Optic neuritis\nB: Anterior ischemic optic neuropathy\nC: CMV retinitis\nD: Functional vision loss",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 42,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "First line therapy in anaphylactic shock is:\n\nA: Adenosine 12 mg intravenously\nB: Atropine 3 mg intravenously\nC: Epinephrine .5 ml of 1:1000 IM\nD: Epinephrine 1 ml of 1:10000 intravenously",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 43,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Hypercementosis of whole dentition is seen in\n\nA: Hypophosphatasia\nB: Achondroplasia\nC: Pagets disease\nD: Fibrous dysplasia polyostotic type",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 44,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Renal agenesis is associated with:\n\nA: Hydramnios\nB: Anencephaly\nC: Tracheo-oesophageal fistula\nD: Oligohydramnios",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 45,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Maximum contribution to the refractive power of the eye is by which pa of the eye?\n\nA: Anterior surface of cornea\nB: Posterior surface of cornea\nC: Anterior surface of lens\nD: Posterior surface of lens",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 46,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "An elderly male presents with T3NO laryngeal carcinoma. What would be the management?\n\nA: Neoadjuvant chemotherapy followed by radiotherapy\nB: Concurrent chemoradiotherapy\nC: Radical radiotherapy followed by chemotherapy\nD: Radical radiotherapy without chemotherapy",
+      "ground_truth": "B",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "id": 47,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 10 year old boy presents with midline swelling arising from cerebellum the diagnosis is –\n\nA: Astrocytoma\nB: Glioblastoma multiforme\nC: Ependymoma\nD: Medulloblastoma",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 48,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Postherpetic neuralgia is defined as pain lasting beyond how many weeks?\n\nA: 1 week\nB: 2 weeks\nC: 3 weeks\nD: 4 weeks",
+      "ground_truth": "D",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 49,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is ture about afferent nerve fibers of pulp\n\nA: Parasympathetic post ganglionic\nB: Sympathetic post ganglionic\nC: Parasympathetic pre ganglionic\nD: Sympathetic preganglionic",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 50,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Cardiac dysarrythmia during extraction is caused by:\n\nA: Trochlear nerve\nB: Facial nerve\nC: TrigeminaL nerve\nD: Occulomotor nerve",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 51,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following enzyme is common between glycogenesis and glycogenolysis?\n\nA: Glycogen synthase\nB: Glycogen phosphorylase\nC: Glucan transferase\nD: Phosphoglucomutase",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 52,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Boiled lobster syndrome is seen in poisoning of:\n\nA: Boric acid\nB: HNO,\nC: H,SO4\nD: Phenol",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 53,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Dead bone appears on a radiograph as:\n\nA: Radiolucent\nB: Radio-opaque\nC: Cotton wool appearance\nD: Salt and pepper appearance",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 54,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "During exercise:\n\nA: Cerebral bood flow increases if there is increase in systolic blood pressure\nB: Body temperature increases\nC: Blood flow to muscle increases after 1½ minute\nD: Lymphatic flow from muscle decreases",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 55,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 40 years old patient came with complaints of spikes of fever and difficulty in breathing. Transesophageal ECHO found out the vegetations in the hea. The culture was positive for Burkholderia cepacia. Drug of choice for Burkholderia cepacia pneumonia is:\n\nA: Aminoglycoside and colistin\nB: Carbapenems with 3rd generation cephalosporins\nC: Tigecycline and cefipime\nD: Cotrimoxazole with 3rd generation cephalosporins",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 56,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "In constructing a fixed partial denture for a patient, the\ndentist will use a hygienic pontic. Which of the following\nwill primarily determine the faciolingual dimension of\nthe occlusal portion of this pontic?\n\nA: The length of the pontic\nB: The masticatory, force of the patient\nC: The position of the opposing contact areas\nD: The width and crestaL position of the edentulous ridge",
+      "ground_truth": "C",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 57,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Motor division of trigeminal division comes out via:\n\nA: Foramen spinosum\nB: Foramen magnum\nC: Foramen ovale\nD: Foramen lacerum",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 58,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Patient with carcinoma endometrium treated with pelvic external beam irradiation to whole pelvis. Which of the following organs is most radiosensitive in the pelvic region?\n\nA: Ovary\nB: Vagina\nC: Bladder\nD: Rectum",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 59,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following organisms is NOT implicated in  the etiology of Periodontal disease\n\nA: Bacteroides\nB: Wolinella\nC: Neisseria\nD: Eikenella",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 60,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Water powder ratio for class IV stone is:\n\nA: 0.22-0.24\nB: 0.24-0.28\nC: 0.65-0.70\nD: 0.45-0.50",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 61,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Kalindi 25 years female admitted as a case of septic abortion with tricuspid valve endocarditis. Vegetation from the valve likely to affect is:\n\nA: Liver\nB: Spleen\nC: Brain\nD: Lung",
+      "ground_truth": "D",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": false
+    },
+    {
+      "id": 62,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "What is the effective management of a dengue patient with warning signs without shock and haemorrhage-\n\nA: Steroids\nB: Platelet transfusion\nC: IV fluids\nD: Antiviral",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 63,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Best graft for alveolar cleft surgery\n(Or)\nPatient with cleft palate graft taken from\n\nA: Posterior iliac crest\nB: Anterior iliac crest\nC: Clavicle\nD: Rib",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 64,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Surgery on the hard palate of a 3 years old cleft patient may inhibit growth, causing the facial profile to become:\n\nA: Straight\nB: Elongated\nC: Shortened\nD: More concave",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 65,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The carat for Au foil used for restorations is:\n\nA: 18\nB: 20\nC: 22\nD: 24",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 66,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Folic acid deficiency is precipitated by:\n\nA: Aspirin\nB: Ranitidine\nC: Cyclosporin\nD: Phenytoin",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 67,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A man comes with history of abnormal excessive blinking and grunting. He says he has no control over his symptoms, which have risen in frequency of late. This has staed affecting his social life making him depressed. Which of the following medications should be used in him?\n\nA: Risperidone\nB: Imipramine\nC: Carbamazepine\nD: Methylphenidate",
+      "ground_truth": "A",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 68,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which is the best index for burden of disease?\n\nA: Case fatality rate\nB: Morbidity data\nC: Dependency ratio\nD: Disability adjusted life years",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 69,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "NESTROFT test is a screening test for –\n\nA: β–thalassemia\nB: Hereditary spherocytosis\nC: Autoimmune hemolytic anemia\nD: Megaloblastic anemia",
+      "ground_truth": "A",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 70,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The skin of a patient undergoing radiotherapy will show\nafter 2 weeks?\n\nA: Erythema\nB: Depigmentation\nC: Radiation induced carcinomas\nD: No change",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 71,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Incidence of extra canal in mandibular 1st molar is seen in\n\nA: 10%\nB: 20%\nC: 30%\nD: 40%",
+      "ground_truth": "C",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "id": 72,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Biomarker of alcoholic hepatitis:\n\nA: ALP\nB: AST\nC: LDH\nD: GGT",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 73,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 50 years old female on junk food diet presented with point hemorrhages in scalp, bleeding in joints and erythemataous lesions in the skin. X-ray of knee joint was suggestive of hemahrosis. Problem lies with:\n\nA: Hydroxylation of proline and lysine\nB: Carboxylation of glutamic acid\nC: Carboxylation of coagulation factors\nD: Platelet aggregation defect",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 74,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A patient presented with pain in the right lower quadrant of abdomen. He has history of renal stones in right kidney. He was prescribed an opioid which is agonist at kappa receptors and antagonist at mu receptors. The likely drug given was:\n\nA: Pentazocine\nB: Buprenorphine\nC: Tramadol\nD: Fentanyl",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 75,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is most common developmental cyst\n\nA: Nasopalatine cyst\nB: Naso-alveolar cyst\nC: Globulomaxillary cyst\nD: Median palatal cyst",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 76,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "An 11-year-old boy complains of spacing between maxillary incisors. The appropriate treatment is with:\n\nA: Hawley's appliance\nB: Fixed appliance\nC: No treatment\nD: Oral screen",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 77,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Hepatitis B occurs after an incubation period of:\n\nA: 1 week\nB: 3 weeks\nC: 3 months\nD: 6 months",
+      "ground_truth": "C",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 78,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 45 years old patient presented with complaints of pain in abdomen and menorrhagia. Endometrial biopsy was normal and sonogram of uterus showed diffusely enlarged uterus with no adnexal mass. What is the diagnosis?\n\nA: Fibroid uterus\nB: Endometritis\nC: Endometriosis\nD: Adenomyosis",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 79,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following drug is not used for medical management of ectopic pregnancy:\n\nA: Potassium Chloride\nB: Methotrexate\nC: Actinomycin D\nD: Misoprostol",
+      "ground_truth": "D",
+      "model_output": "D\n",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "id": 80,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Vitamin K:\n\nA: Helps in formation of prothrombin\nB: Inhibition of antithrombin\nC: Prevention of capillary fragility\nD: Stimulation of hematopoiesis in red bone marrow",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 81,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A girl comes with symptoms of involuntary movements. Sydenham's chorea and acute rheumatic fever is suspected. Other major criteria of rheumatic fever (ahritis, skin rashes, subcutaneous nodules and carditis) were absent. No evidence of sore throat. Best investigation to prove rheumatic etiology is:\n\nA: Antistreptolysin S\nB: Antistreptolysin O\nC: Throat culture\nD: PCR for M protein",
+      "ground_truth": "B",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "id": 82,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following is not used in polymerase chain reaction?\n\nA: DNA Polymerase\nB: Taq polymerase\nC: Dideoxyribonucleotides\nD: DNA template",
+      "ground_truth": "C",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "id": 83,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Fracture passing through mental foramen in mandible with less than 10 mm of bone can be best managed by\n\nA: Reconstruction plate\nB: MMF\nC: Lag screws\nD: 3-D plate",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 84,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "If a permanent first molar is lost, the permanent second molar drifts to the:\n\nA: Buccal side\nB: Distal side\nC: Mesial side\nD: Lingual side",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 85,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which pa of 2nd metatarsal is involved in the March fracture?\n\nA: Head\nB: Neck\nC: Shaft\nD: Base",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 86,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Thiamine deficiency decreases cellular metabolism because:\n\nA: Thiamine is a coenzyme for pyruvate dehydrogenase and alfa-ketoglutarate dehydrogenases\nB: Activity of transketolase is inhibited\nC: It is required for the process of transamination\nD: It is a cofactor in oxidative reduction",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 87,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Metapex is a combination of which of these?\n\nA: Calcium hydroxide +ZoE\nB: ZoE + Iodoform\nC: Calcium hydroxide + iodoform\nD: Calcium hydroxide + GIC",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 88,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The current bar clasp design used is:\n\nA: Mesio-occlusal rest\nB: Disto-occlusal rest\nC: Mesial or distal depending on the situation\nD: Choice of the dentist",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 89,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Addison's disease is due to:\n\nA: Chronic insufficiency of adrenal cortex\nB: Chronic insufficiency of adrenal medulla\nC: Insufficiency of pancreas\nD: Hypofunction of thyroid gland",
+      "ground_truth": "A",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "id": 90,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "A 36 years old patient underwent breast conservation therapy and chemotherapy for a 1.5 x 1.2 cm ER positive breast cancer with one positive axillary lymph node. She is now on tamoxifen. How will you follow-up the patient?\n\nA: Annual bone scan\nB: Assessment of tumor markers 6 monthly\nC: Routine clinical examination 3 monthly in 1st year with annual mammogram\nD: Routine clinical examination 3 monthly and 6 monthly liver function tests",
+      "ground_truth": "C",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "id": 91,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": ". The most common fungal infection in the neonates transmitted by caregiver's hand is:\n\nA: Candida albicans\nB: Candida glabrata\nC: Candida tropicalis\nD: Candida parapsilosis",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 92,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "In a patient with typhoid, diagnosis after 15 days of onset of fever is best done by:\n\nA: Blood culture\nB: Widal test\nC: Stool culture\nD: Urine culture",
+      "ground_truth": "C",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 93,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Least complication in outlet forceps is:\n\nA: Complete perinea! tear\nB: Vulval hematoma\nC: Extension of episiotomy\nD: Cervical tear",
+      "ground_truth": "D",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 94,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The strength of a gypsum investment is dependent\non:\n\nA: Carbon content\nB: Silica content\nC: Gypsum\nD: Copper",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 95,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Disease caused by Staphylococcus aureus which is not mediated through a toxin is\n\nA: Food poisoning\nB: Septicemic shock\nC: Toxic shock syndrome\nD: Staphylococcal scalded skin syndrome",
+      "ground_truth": "B",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "id": 96,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Functional appliances in skeletal class II are indicated when:\n\nA: Maxilla is normal, mandible is retrognathic\nB: Maxilla is prognathic\nC: Mandible is retrognathic in a mature individual\nD: When severe crowding is present",
+      "ground_truth": "A",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": false
+    },
+    {
+      "id": 97,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "The systolic blood pressure in normal healthy males of age group of 40 — 60 has a normal distribution with a mean of 130 in a sample of 100. People with systolic blood pressure more than 130 will be:\n\nA: 100\nB: 75\nC: 50\nD: 25",
+      "ground_truth": "C",
+      "model_output": "C\n",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "id": 98,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "In a study, two groups of newborns are checked for their weights based on whether their mothers received food supplements or not. The appropriate test which can be used for comparing the data is:\n\nA: Chi square test\nB: Paired T-test\nC: Student's T-test\nD: Fischer exact test",
+      "ground_truth": "C",
+      "model_output": "B\n",
+      "predicted": "B",
+      "correct": false
+    },
+    {
+      "id": 99,
+      "instruction": "Answer the following multiple choice question. Choose the best answer from the options (A, B, C, or D).",
+      "input": "Which of the following hormones increases the sensitivity of heart to epinephrine:\n\nA: Parathyroid\nB: Insulin\nC: Thyroid\nD: Glucagon",
+      "ground_truth": "C",
+      "model_output": "A\n",
+      "predicted": "A",
+      "correct": false
+    }
+  ]
+}

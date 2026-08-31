@@ -1,0 +1,35 @@
+Team member 1: Bala Subramani, Abitha
+Team member 2: Varshini Ramakrishnan
+Github handle: abi1402
+Final score: 30.25 / 32
+
+Question 1 feedback - score: 9.75
+ResNet-18 setup: pre-trained weights, final FC layer replaced (max 0.5 pts): 0.5 pts
+ViT-base Setup: pre-trained weights, model head replaced  (max 0.5 pts): 0.5 pts
+Training Loop: train/val loss and accuracy per epoch; saves best checkpoint (max 0.75 pts): 0.75 pts
+Fine-tuning Strategy: justify freezing/unfreezing decisions  (max 0.25 pts): 0 pts
+Data augmentation (max 0.25 pts): 0.25 pts
+Correct evaluation on test set (max 0.25 pts): 0.25 pts
+Correct confusion matrix for both ResNet and ViT (max 0.5 pts): 0.5 pts
+Report: Description of challenges encountered (max 1.5 pts): 1.5 pts
+Report: Model Comparison (max 1.5 pts): 1.5 pts
+Based on accuracy: 4 pts (both models > 80%); 3 pts (both models > 75%); 2 pts (1 model > 75%); 1 pts (both models < 70%) : 4 pts
+
+Question 2 feedback - score: 8.5
+In general good code implementation. Furthermore, some points are deducted as the gradcam visualization is not interpolated to the higher dimension of the source image, making interpretation unclear. The interpretation about adjacent skin in ViT is incorrect. The attention should be focused on the lesion, not surrounding skin, which is generally speaking an irrelevant feature, if not harmful to actual prediction.
+
+Question 3 feedback - score: 10
+Correctness of LoRA Configuration (max 1 pt): 1 pts
+Correctness of Training Parameter Configuration (max 1 pt): 1 pts
+Taining loop runs successfully and records a convergence curve (max 1 pt): 1 pts
+The base model is correctly loaded and used for inference (max 1 pt): 1 pts
+The fine-tuned model is correctly loaded and used for inference  (max 1 pt): 1 pts
+LoRA Configuration - explain the meaning of each hyperparameter and why it matters, justify the choice of hyperparameter configuration (max 1 pt): 1 pts
+Training Configuration - explain why the hyperparameters matter for training, justify training parameter configuration (max 1 pt): 1 pts
+Training Procedure - visualize and discuss the convergence curve (max 1 pt): 1 pts
+Baseline Comparison - Which model performs better?  Does the LoRA fine-tuned model genuinely outperform the base model and is it more clinically appropriate? (max 1 pt): 1 pts
+Baseline  Comparison - What additional steps could be taken to further improve performance? (max 1 pt): 1 pts
+General Feedback: Well implemented code and organized report.
+
+Question 4 feedback - score: 2
+Nice report and implementation. One note about measuring RAG performance, you don't just measure the accuracy of the final generation, rather it's a combination of retrieval metrics (precision and recall for context for example). When you're experimenting with different chunk sizes, measusing your retrieval performance is more important than the accuracy of the final generation. Also a note on source node scores. You may find text which reads very semantically similar but contain no information to answer a query and the opposite as well. Which is why for evaluations, we create QA pairs with hard negatives to test the robustness of RAG pipelines.

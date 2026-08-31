@@ -1,0 +1,120 @@
+Name: BALA SUBRAMANI, ABITHA
+Github handle: abi1402
+Final score: 56.2/60
+
+Question Q_M1 visualize_weight_distribution - score: 2
+Well done!
+
+Question Q_M2 const_init - score: 1
+Well done!
+
+Question Q_M2 normal_init - score: 1
+Well done!
+
+Question Q_M3 const_init_model_builder - score: 0.5
+Well done!
+
+Question Q_M3 normal_init_model_builder - score: 0.5
+Well done!
+
+Question Q_M4 visualize_gradients - score: 1
+Well done!
+
+Question Q_M4 visualize_activations - score: 1
+Well done!
+
+Question Q_M_5_1_score - score: 0
+You answered B. The distribution shown in the plots shouldn't meaningfully change with another value for the initialization constant. Answers B and C cannot be right: if the weights are initialized to 0, the gradients will quickly vanish, and there is no reason why activations will be infinite.
+
+Question Q_M_5_2_score - score: 1
+Well done!
+
+Question Q_M_5_3_score - score: 1
+Well done!
+
+Question Q_M_5_4_score - score: 1
+Well done!
+
+Question Q_M_5_5_score - score: 1
+Well done!
+
+Question Q_R_1_MLP - score: 2
+Well done!
+
+Question Q_R_2_train_model_debug - score: 2
+Well done!
+
+Question Q_R_3_evaluate_debug - score: 2
+Well done!
+
+Question Q_E_1_extract_predictions - score: 2
+Well done!
+
+Question Q_E_2_answer - score: 2
+You answered A, D, G. Answer A is wrong: Direct comparison of per-class accuracy requires normalization. In the presence of class imbalance, raw counts fail to reflect relative predictive performance.
+
+Question Q_E_3_calculate_confusion_matrix - score: 2
+Well done!
+
+Question Q_E_4_answer - score: 3
+Well done!
+
+Question Q_E_5_plot_pixel_intensity_distributions - score: 2
+Well done!
+
+Question Q_E_6_plot_mean_pixel_intensity_distributions - score: 2
+Well done!
+
+Question Q_E_7_answer - score: 2.67
+You answered B, D. Answer C is missing: It is dangerous to deploy it, since it classifies unknown objects like 'triangle' with high confidence as 'church' and random objects like the 'airplane' images with high confidence as 'flower'.
+
+Question Q_F_1_relu_model - score: 1
+Well done!
+
+Question Q_F_1_sigmoid_model - score: 1
+Well done!
+
+Question Q_F_2_results_dict - score: 1
+Well done!
+
+Question Q_F_3_answer - score: 2
+Well done!
+
+Question Q_I_1_ActivationMap - score: 1
+Well done!
+
+Question Q_I_2_plot_activation_maps - score: 1
+Well done!
+
+Question Q_I_2_get_samples_per_class - score: 1
+Well done!
+
+Question Q_P_1_CNNMaxPool - score: 1
+Well done!
+
+Question Q_P_2_CNNAvgPool - score: 1
+Well done!
+
+Question Q_P_3_plot_activation_maps_pooling - score: 2
+Well done!
+
+Question Q_P_4_answer - score: 2
+Well done!
+
+Question Q_A_1_answer - score: 1
+Well done!
+
+Question Q_A_2_plot_samples - score: 1
+Well done!
+
+Question Q_A_3_plot_activation_maps_aug - score: 2
+Well done!
+
+Question Q_A_4_answer - score: 1.5
+You answered A, C, E. Answer B is missing: Images can be drawn in different orientations, thus flipping mimics the natural variation that could occur in the data distribution.
+
+Question Q_A_5_transform_pipeline - score: 2
+Well done!
+
+Question Q_A_6_train_model_augmented - score: 2
+Well done!

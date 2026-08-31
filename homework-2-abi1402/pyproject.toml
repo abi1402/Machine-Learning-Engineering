@@ -1,0 +1,27 @@
+[project]
+name = "assignment2026-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "dotenv>=0.9.9",
+  "ipycanvas>=0.14.3",
+  "ipywidgets>=8.1.8",
+  "jupyterlab>=4.5.3",
+  "matplotlib>=3.10.8",
+  "mle-course-package",
+  "openml>=0.15.1",
+  "pytest>=9.0.2",
+  "scikit-learn>=1.8.0",
+  "seaborn>=0.13.2",
+  "setuptools>=80.10.2",
+  "torch>=2.10.0",
+  "torchvision>=0.25.0",
+  "tqdm>=4.67.2",
+]
+
+[tool.uv.sources]
+mle-course-package = { path = "mle_course_package-0.1.1-py3-none-any.whl" }
+[tool.setuptools.packages.find]
+exclude = ["validation*", "submission_test*"]

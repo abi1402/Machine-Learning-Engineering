@@ -1,0 +1,45 @@
+name: Autograding Tests
+"on":
+  - push
+  - repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /opt/hostedtoolcache
+          df -h
+      - name: Setup dependencies
+        run: |
+          pip3 install --upgrade pip setuptools
+          pip install ./mle_course_package-0.1.1-py3-none-any.whl
+          pip install --no-cache-dir -e .
+          pip install --no-cache-dir jupyter nbconvert pytest
+      - name: submission_test
+        id: submission_test
+        continue-on-error: true
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: submission_test
+          command: pytest --tb=short
+          timeout: 20
+          max-score: 100
+      - name: Autograding Reporter
+        uses: classroom-resources/autograding-grading-reporter@v1
+        env:
+          SUBMISSION_TEST_RESULTS: "${{steps.submission_test.outputs.result}}"
+        with:
+          runners: submission_test
